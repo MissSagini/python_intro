@@ -1,41 +1,41 @@
 # requires an initialization step. This includes declaring a var and giving it the imitial state
-# num = 10
-# while num > 0:
-#     print(num)
-#     # the increment step is brought up here
-#     num = num - 1
-# print('Finished looping!')
+num = 10
+while num > 0:
+    print(num)
+    # the increment step is brought up here
+    num = num - 1
+print('Finished looping!')
 
-# num = 1000
-# while num > 0:
-#     if num == 800:
-#         break
-#     print(num)
-#     # the increment step is brought up here
-#     num = num - 1
-# print('Finished looping!')
+num = 1000
+while num > 0:
+    if num == 800:
+        break
+    print(num)
+    # the increment step is brought up here
+    num = num - 1
+print('Finished looping!')
 
-# word = 'Python'
-# while True:
-#     guess = str(input("Which is the most popular programming language in 2026?....\n"))
-#     if guess == '':
-#         print('Please enter valid guess')
-#         continue 
-#     if guess == word:
-#         print('Congragulations! You guessesd right.')
-#         break
-#     print('Nice attempt. Please try again, another time')
+word = 'Python'
+while True:
+    guess = str(input("Which is the most popular programming language in 2026?....\n"))
+    if guess == '':
+        print('Please enter valid guess')
+        continue 
+    if guess == word:
+        print('Congragulations! You guessesd right.')
+        break
+    print('Nice attempt. Please try again, another time')
 
-# score = '47'
-# while True:
-#     answer = str(input("what is 25 + 22?....\n"))
-#     if answer == '':
-#         print('Please enter valid number')
-#         continue 
-#     if answer == score:
-#         print('Congragulations! You are right.')
-#         break
-#     print('Nice attempt. Please try again, another time')
+score = '47'
+while True:
+    answer = str(input("what is 25 + 22?....\n"))
+    if answer == '':
+        print('Please enter valid number')
+        continue 
+    if answer == score:
+        print('Congragulations! You are right.')
+        break
+    print('Nice attempt. Please try again, another time')
 
 my_num = 7
 while True:
